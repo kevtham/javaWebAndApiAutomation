@@ -1,4 +1,4 @@
-package com.gov.dwp.heroku.model;
+package com.test.heroku.model;
 
 import io.cucumber.datatable.dependency.com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import io.cucumber.datatable.dependency.com.fasterxml.jackson.annotation.JsonInclude;

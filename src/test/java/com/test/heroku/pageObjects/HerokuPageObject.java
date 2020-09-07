@@ -1,4 +1,4 @@
-package com.gov.dwp.heroku.pageObjects;
+package com.test.heroku.pageObjects;
 
 import org.openqa.selenium.By;
 

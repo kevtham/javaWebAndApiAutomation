@@ -1,4 +1,4 @@
-package com.gov.dwp.heroku;
+package com.test.heroku;
 
 import com.jayway.restassured.RestAssured;
 import com.jayway.restassured.http.ContentType;

@@ -1,4 +1,4 @@
-package com.gov.dwp.heroku.stepDefnitions;
+package com.test.heroku.stepDefnitions;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
@@ -7,15 +7,15 @@ import static org.junit.Assert.assertNotNull;
 import org.apache.log4j.Logger;
 
 import com.google.gson.Gson;
-import com.gov.dwp.heroku.AbstractApi;
-import com.gov.dwp.heroku.model.Instruction;
-import com.gov.dwp.heroku.model.UserId;
 import com.jayway.restassured.response.Response;
+import com.test.heroku.AbstractApi;
+import com.test.heroku.model.Instruction;
+import com.test.heroku.model.UserId;
 
 import io.cucumber.java.en.Given;
 
-public class DwpHerokkuAppSwaggerApiSteps extends AbstractApi {
-    final static Logger log = Logger.getLogger(DwpHerokkuAppSwaggerApiSteps.class);
+public class HerokkuAppSwaggerApiSteps extends AbstractApi {
+    final static Logger log = Logger.getLogger(HerokkuAppSwaggerApiSteps.class);
 
     static final String cityUsers = "/city/{city}/users";
     static final String instructions = "/instructions";

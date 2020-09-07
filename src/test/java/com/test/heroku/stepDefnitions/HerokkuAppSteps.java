@@ -1,29 +1,25 @@
-package com.gov.dwp.heroku.stepDefnitions;
+package com.test.heroku.stepDefnitions;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
-import java.util.List;
-
 import org.apache.log4j.Logger;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-import com.gov.dwp.heroku.pageObjects.HerokuPageObject;
+import com.test.heroku.pageObjects.HerokuPageObject;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 
-public class DwpHerokkuAppSteps extends HerokuPageObject{
-    final static  Logger log = Logger.getLogger(DwpHerokkuAppSteps.class);
+public class HerokkuAppSteps extends HerokuPageObject{
+    final static  Logger log = Logger.getLogger(HerokkuAppSteps.class);
     static WebDriver driver;
 
     @Given("I need to set the environment and the driver based on the input provided")
     public void setUp() {
-        System.setProperty("webdriver.chrome.driver", "/Users/kgnana741/Documents/Software/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "/Users/kevingnanamuthu/Documents/Software/chromedriver");
         driver = new ChromeDriver();
     }
 
